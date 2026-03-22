@@ -5,5 +5,5 @@ status = "anak anak" if umur <= 13 else "remaja" if umur <= 17 else "dewasa"
 print(f"""
 nama    : {nama}
 umur    : {umur}
-status  : dewasa
+status  : {status}
         """)
