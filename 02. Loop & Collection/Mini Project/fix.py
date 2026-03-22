@@ -5,7 +5,7 @@ jumlah_siswa = int(input("masukan jumlah siswa : "))
 total_nilai = 0
 
 for i in range(jumlah_siswa) :
-    print(f"\n================ input siswa ke - {i} ================")
+    print(f"\n================ input siswa ke - {i + 1} ================")
     nama = input("masukan nama siswa : ")
     nilai = int(input("masukan nilai siswa : "))
     
