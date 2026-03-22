@@ -15,7 +15,7 @@ umur    : {umur}
 status  : remaja
         """)
 else : 
-        print("""
+        print(f"""
 nama    : {nama}
 umur    : {umur}
 status  : dewasa
