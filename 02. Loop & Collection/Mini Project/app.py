@@ -15,7 +15,5 @@ for i in range(jumlah_siswa) :
     print(f"""
 nama    : {nama_siswa[i]}
 nilai   : {nilai_siswa[i]}
-
 ===========================
-
           """)
