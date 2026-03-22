@@ -12,6 +12,8 @@ for i in range(jumlah_siswa) :
     
 print("\n================ DAFTAR SISWA ================")
 for i in range(jumlah_siswa) :
-    print(f"""nama    : {nama_siswa[i]}
+    print(f"""
+===========================
+nama    : {nama_siswa[i]}
 nilai   : {nilai_siswa[i]}
 ===========================""")
