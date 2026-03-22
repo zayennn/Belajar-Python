@@ -10,7 +10,7 @@ for i in range(jumlah_siswa) :
     nama_siswa.append(nama)
     nilai_siswa.append(nilai)
     
-print("================ DAFTAR SISWA ================")
+print("\n================ DAFTAR SISWA ================")
 for i in range(jumlah_siswa) :
     print(f"""
 nama    : {nama_siswa[i]}
