@@ -5,5 +5,5 @@ tinggi = 175.5
 # nama      → nama variabel
 # =         → assignment (ngasih nilai)
 # "elang"   → string
-# 18        → integer
+# 19        → integer
 # 170.5     → float
