@@ -2,7 +2,7 @@ nama = input("masukan nama anda : ")
 umur = int(input("masukan umur anda : "))
 status = ""
 
-if umur < 13 :
+if umur <= 13 :
     print(f"""
 nama    : {nama}
 umur    : {umur}
