@@ -4,7 +4,6 @@ nilai_siswa = []
 jumlah_siswa = int(input("masukan jumlah siswa : "))
 
 total_nilai = 0
-nilai_rata_rata = total_nilai / jumlah_siswa
 
 for i in range(jumlah_siswa) :
     nama = input(f"masukan nama siswa ke - {i + 1} : ")
@@ -13,7 +12,9 @@ for i in range(jumlah_siswa) :
     nama_siswa.append(nama)
     nilai_siswa.append(nilai)
     
-    total_nilai += nilai_siswa[i]
+    total_nilai += nilai
+    
+nilai_rata_rata = total_nilai / jumlah_siswa 
     
 print("\n================ DAFTAR SISWA ================")
 for i in range(jumlah_siswa) :
