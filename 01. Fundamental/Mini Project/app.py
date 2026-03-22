@@ -3,13 +3,13 @@ umur = int(input("masukan umur anda : "))
 status = ""
 
 if umur < 13 :
-    print("""
+    print(f"""
 nama    : {nama}
 umur    : {umur}
 status  : anak anak
         """)
 elif umur <= 17 :
-        print("""
+        print(f"""
 nama    : {nama}
 umur    : {umur}
 status  : remaja
