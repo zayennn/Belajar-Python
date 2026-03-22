@@ -7,8 +7,8 @@ for i in range(jumlah_siswa) :
     nama = input(f"masukan nama siswa ke - {i + 1} : ")
     nilai = int(input(f"masukan nilai siswa ke - {i + 1} : "))
     
-    nama_siswa[i] = nama
-    nilai_siswa[i] = nilai
+    nama_siswa.append(nama)
+    nilai_siswa.append(nilai)
     
 print("================ DAFTAR SISWA ================")
 for i in range(jumlah_siswa) :
