@@ -23,4 +23,4 @@ nama    : {nama_siswa[i]}
 nilai   : {nilai_siswa[i]}
 ===========================""")
 
-print("nilai rata rata siswa adalah : ", total_nilai)
+print("nilai rata rata siswa adalah : ", nilai_rata_rata)
