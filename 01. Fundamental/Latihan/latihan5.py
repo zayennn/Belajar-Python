@@ -1,4 +1,4 @@
-nilai = 75
+nilai = 74
 
 if nilai >= 75 :
     print("lulus")
